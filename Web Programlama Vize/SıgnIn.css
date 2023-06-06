@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    background-color: #F2F2F2;
+}
+.container{
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.container h1{
+    color: #808080;
+    margin: 10px;
+    font-size: 45px;
+}
+
+.container form input{
+    margin: 10px;
+    width: 250px;
+    height: 20px;
+    border-radius: 25px;
+    background-color: #EFEFEF;
+    color: black;
+    padding: 15px;
+    border: #EFEFEF;
+}
+.container form button{
+    margin: 20px;
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: #EE55F4;
+    border: #EE55F4;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+.icons a{
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#facebook{
+    color: blue;
+}
+#google{
+    color: red;
+}
+#yahoo{
+    color: navy ;
+}

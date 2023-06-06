@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1><b>REGISTER</b></h1>
+        <div class="icons">
+        <a href="https://tr-tr.facebook.com/" id="facebook" class="fa fa-facebook"></a>
+        <a href="https://accounts.google.com/v3/signin/identifier?dsh=S1443201160%3A1683642591934261&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=Af_xneE_RwX3hu4ElX9mHZYhY-BCzAGN2mWJc3IT3PqbTA1_UxS-Q7gZE3FKZTsULUiqcN_09rXdoA&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin" id="google" class="fa fa-google"></a>
+        <a href="https://login.yahoo.com/?.lang=en-US&src=homepage&.done=https%3A%2F%2Fwww.yahoo.com%2F%3Fguccounter%3D1%26guce_referrer%3DaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8%26guce_referrer_sig%3DAQAAALJIt7fNKLVBcpnkhhDjYMC9Cs9O9JNyGfu0RsBGKEhErtVj-VmW5R7JfYBZqLuY_AAiby5J04CZr95yb3WDr5Aus9U9_t2iEVpIAlk9POWHG2Z0huRSNrDaL3ddngqGnUIi1XrffEEjkR4cynZiJBcs8yewW1-4fC6JYFLSTaGD&pspid=2023538075&activity=ybar-signin" id="yahoo" class="fa fa-yahoo"></a>  
+        </div>
+     
+        <p>or use your email addres:</p>
+        <form>
+            <input required id="name" type="text" placeholder="First Name">
+            <input required id="email" type="email" placeholder="Email">
+            <input required id="password" type="password" placeholder="Password">
+            <input required id="Cpassword" type="password" placeholder="Confirm Password">
+           <!-- <button onclick="emre()">CREATE ACCOUNT</button> -->
+            <button name="data" type="button" onclick="e()">CREATE ACCOUNT</button>
+        </form>
+        <p>Already have an accounts?<a href="SignIn.html">Sign In</a> </p>
+        <p id="wrong" ></p> 
+    </div>
+
+    <script src="jquery-3.6.4.slim.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
